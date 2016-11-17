@@ -26,7 +26,7 @@ export default class Application extends Component {
               { this.store.countdown }
             </div>
             <div className={ styles.footer }>
-              { this.store.isElapsed ? 'elpased' : 'remaining' }
+              { this.store.isElapsed ? 'elapsed' : 'remaining' }
             </div>
           </div>
         </div>
